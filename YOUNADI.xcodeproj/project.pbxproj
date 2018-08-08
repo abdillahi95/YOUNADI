@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F91613E55E38E622BCDE434 /* Pods_YOUNADITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DAEF210017589FB61D5051 /* Pods_YOUNADITests.framework */; };
+		B79719FF3DE61C7CD6909385 /* Pods_YOUNADI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB72EC9E758026521BB82260 /* Pods_YOUNADI.framework */; };
+		E1D68F18CD9E3098E1A2CAEE /* Pods_YOUNADIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15332CA43553513D935635F3 /* Pods_YOUNADIUITests.framework */; };
+		EC16528B2119B02B008F07F0 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EC16528A2119B015008F07F0 /* video.mp4 */; };
+		EC16528D2119B0AA008F07F0 /* g.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EC16528C2119B09E008F07F0 /* g.mp4 */; };
+		EC5263A62111AA810051ADD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC5263A52111AA810051ADD5 /* GoogleService-Info.plist */; };
+		EC5263A82111AF770051ADD5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5263A72111AF770051ADD5 /* Utils.swift */; };
+		EC5263AF2111BA770051ADD5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5263AE2111BA770051ADD5 /* User.swift */; };
+		EC71F49D2112F84000FEA949 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC71F49C2112F84000FEA949 /* Helper.swift */; };
+		EC71F49F2113170C00FEA949 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC71F49E2113170C00FEA949 /* ConnectViewController.swift */; };
+		EC71F4A1211485F400FEA949 /* acceuilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC71F4A0211485F400FEA949 /* acceuilViewController.swift */; };
+		ECB49019211199E500DF6541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB49018211199E500DF6541 /* AppDelegate.swift */; };
+		ECB4901B211199E500DF6541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4901A211199E500DF6541 /* ViewController.swift */; };
+		ECB4901E211199E500DF6541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB4901C211199E500DF6541 /* Main.storyboard */; };
+		ECB49020211199E500DF6541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB4901F211199E500DF6541 /* Assets.xcassets */; };
+		ECB49023211199E500DF6541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB49021211199E500DF6541 /* LaunchScreen.storyboard */; };
+		ECB4902E211199E500DF6541 /* YOUNADITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4902D211199E500DF6541 /* YOUNADITests.swift */; };
+		ECB49039211199E500DF6541 /* YOUNADIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB49038211199E500DF6541 /* YOUNADIUITests.swift */; };
+		ECB4904721119A0E00DF6541 /* first.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4904621119A0E00DF6541 /* first.swift */; };
+		ECB4904A21119D9D00DF6541 /* premierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4904921119D9D00DF6541 /* premierViewController.swift */; };
+		ECB4904C21119F4E00DF6541 /* createUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4904B21119F4E00DF6541 /* createUserViewController.swift */; };
+		ECB4904E2111A35000DF6541 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4904D2111A35000DF6541 /* SignInViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB4902A211199E500DF6541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB4900D211199E500DF6541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB49014211199E500DF6541;
+			remoteInfo = YOUNADI;
+		};
+		ECB49035211199E500DF6541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB4900D211199E500DF6541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB49014211199E500DF6541;
+			remoteInfo = YOUNADI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15332CA43553513D935635F3 /* Pods_YOUNADIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YOUNADIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		235BDAFE165D69C9278AE8EA /* Pods-YOUNADITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOUNADITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YOUNADITests/Pods-YOUNADITests.release.xcconfig"; sourceTree = "<group>"; };
+		5171666A8211B2913E54239F /* Pods-YOUNADI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOUNADI.release.xcconfig"; path = "Pods/Target Support Files/Pods-YOUNADI/Pods-YOUNADI.release.xcconfig"; sourceTree = "<group>"; };
+		78DAEF210017589FB61D5051 /* Pods_YOUNADITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YOUNADITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B9C006C727AB08D4896067 /* Pods-YOUNADITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOUNADITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YOUNADITests/Pods-YOUNADITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8583785D0AEBD35CF517372D /* Pods-YOUNADIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOUNADIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YOUNADIUITests/Pods-YOUNADIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E1A92C0D0053B7BD2CD1397 /* Pods-YOUNADIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOUNADIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YOUNADIUITests/Pods-YOUNADIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E629A24A9B677E8D78DA537 /* Pods-YOUNADI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOUNADI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YOUNADI/Pods-YOUNADI.debug.xcconfig"; sourceTree = "<group>"; };
+		CB72EC9E758026521BB82260 /* Pods_YOUNADI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YOUNADI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC16528A2119B015008F07F0 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		EC16528C2119B09E008F07F0 /* g.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = g.mp4; sourceTree = "<group>"; };
+		EC5263A52111AA810051ADD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC5263A72111AF770051ADD5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		EC5263AE2111BA770051ADD5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EC71F49C2112F84000FEA949 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		EC71F49E2113170C00FEA949 /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		EC71F4A0211485F400FEA949 /* acceuilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acceuilViewController.swift; sourceTree = "<group>"; };
+		ECB49015211199E500DF6541 /* YOUNADI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOUNADI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB49018211199E500DF6541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECB4901A211199E500DF6541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECB4901D211199E500DF6541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB4901F211199E500DF6541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB49022211199E500DF6541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECB49024211199E500DF6541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB49029211199E500DF6541 /* YOUNADITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOUNADITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB4902D211199E500DF6541 /* YOUNADITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOUNADITests.swift; sourceTree = "<group>"; };
+		ECB4902F211199E500DF6541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB49034211199E500DF6541 /* YOUNADIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOUNADIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB49038211199E500DF6541 /* YOUNADIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOUNADIUITests.swift; sourceTree = "<group>"; };
+		ECB4903A211199E500DF6541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB4904621119A0E00DF6541 /* first.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first.swift; sourceTree = "<group>"; };
+		ECB4904921119D9D00DF6541 /* premierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = premierViewController.swift; sourceTree = "<group>"; };
+		ECB4904B21119F4E00DF6541 /* createUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createUserViewController.swift; sourceTree = "<group>"; };
+		ECB4904D2111A35000DF6541 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB49012211199E500DF6541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79719FF3DE61C7CD6909385 /* Pods_YOUNADI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB49026211199E500DF6541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F91613E55E38E622BCDE434 /* Pods_YOUNADITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB49031211199E500DF6541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D68F18CD9E3098E1A2CAEE /* Pods_YOUNADIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E866B536B14FC5087334F23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E629A24A9B677E8D78DA537 /* Pods-YOUNADI.debug.xcconfig */,
+				5171666A8211B2913E54239F /* Pods-YOUNADI.release.xcconfig */,
+				81B9C006C727AB08D4896067 /* Pods-YOUNADITests.debug.xcconfig */,
+				235BDAFE165D69C9278AE8EA /* Pods-YOUNADITests.release.xcconfig */,
+				8E1A92C0D0053B7BD2CD1397 /* Pods-YOUNADIUITests.debug.xcconfig */,
+				8583785D0AEBD35CF517372D /* Pods-YOUNADIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D4CD1B99F540E660CE23F7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB72EC9E758026521BB82260 /* Pods_YOUNADI.framework */,
+				78DAEF210017589FB61D5051 /* Pods_YOUNADITests.framework */,
+				15332CA43553513D935635F3 /* Pods_YOUNADIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECB4900C211199E500DF6541 = {
+			isa = PBXGroup;
+			children = (
+				EC16528C2119B09E008F07F0 /* g.mp4 */,
+				EC16528A2119B015008F07F0 /* video.mp4 */,
+				ECB49017211199E500DF6541 /* YOUNADI */,
+				ECB4902C211199E500DF6541 /* YOUNADITests */,
+				ECB49037211199E500DF6541 /* YOUNADIUITests */,
+				ECB49016211199E500DF6541 /* Products */,
+				2E866B536B14FC5087334F23 /* Pods */,
+				9D4CD1B99F540E660CE23F7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB49016211199E500DF6541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB49015211199E500DF6541 /* YOUNADI.app */,
+				ECB49029211199E500DF6541 /* YOUNADITests.xctest */,
+				ECB49034211199E500DF6541 /* YOUNADIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB49017211199E500DF6541 /* YOUNADI */ = {
+			isa = PBXGroup;
+			children = (
+				ECB49018211199E500DF6541 /* AppDelegate.swift */,
+				ECB4904621119A0E00DF6541 /* first.swift */,
+				EC5263A72111AF770051ADD5 /* Utils.swift */,
+				EC5263AE2111BA770051ADD5 /* User.swift */,
+				EC71F49C2112F84000FEA949 /* Helper.swift */,
+				ECB4904821119D6D00DF6541 /* Controllers */,
+				ECB4901C211199E500DF6541 /* Main.storyboard */,
+				ECB4901F211199E500DF6541 /* Assets.xcassets */,
+				EC5263A52111AA810051ADD5 /* GoogleService-Info.plist */,
+				ECB49021211199E500DF6541 /* LaunchScreen.storyboard */,
+				ECB49024211199E500DF6541 /* Info.plist */,
+			);
+			path = YOUNADI;
+			sourceTree = "<group>";
+		};
+		ECB4902C211199E500DF6541 /* YOUNADITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB4902D211199E500DF6541 /* YOUNADITests.swift */,
+				ECB4902F211199E500DF6541 /* Info.plist */,
+			);
+			path = YOUNADITests;
+			sourceTree = "<group>";
+		};
+		ECB49037211199E500DF6541 /* YOUNADIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB49038211199E500DF6541 /* YOUNADIUITests.swift */,
+				ECB4903A211199E500DF6541 /* Info.plist */,
+			);
+			path = YOUNADIUITests;
+			sourceTree = "<group>";
+		};
+		ECB4904821119D6D00DF6541 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECB4901A211199E500DF6541 /* ViewController.swift */,
+				ECB4904921119D9D00DF6541 /* premierViewController.swift */,
+				ECB4904B21119F4E00DF6541 /* createUserViewController.swift */,
+				ECB4904D2111A35000DF6541 /* SignInViewController.swift */,
+				EC71F49E2113170C00FEA949 /* ConnectViewController.swift */,
+				EC71F4A0211485F400FEA949 /* acceuilViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB49014211199E500DF6541 /* YOUNADI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB4903D211199E500DF6541 /* Build configuration list for PBXNativeTarget "YOUNADI" */;
+			buildPhases = (
+				72F3D065FD4C0E0A204D925B /* [CP] Check Pods Manifest.lock */,
+				ECB49011211199E500DF6541 /* Sources */,
+				ECB49012211199E500DF6541 /* Frameworks */,
+				ECB49013211199E500DF6541 /* Resources */,
+				5A212AF5AB15480681C0A9ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YOUNADI;
+			productName = YOUNADI;
+			productReference = ECB49015211199E500DF6541 /* YOUNADI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB49028211199E500DF6541 /* YOUNADITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB49040211199E500DF6541 /* Build configuration list for PBXNativeTarget "YOUNADITests" */;
+			buildPhases = (
+				F9FBA3F9FB540184D4CF5123 /* [CP] Check Pods Manifest.lock */,
+				ECB49025211199E500DF6541 /* Sources */,
+				ECB49026211199E500DF6541 /* Frameworks */,
+				ECB49027211199E500DF6541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB4902B211199E500DF6541 /* PBXTargetDependency */,
+			);
+			name = YOUNADITests;
+			productName = YOUNADITests;
+			productReference = ECB49029211199E500DF6541 /* YOUNADITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECB49033211199E500DF6541 /* YOUNADIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB49043211199E500DF6541 /* Build configuration list for PBXNativeTarget "YOUNADIUITests" */;
+			buildPhases = (
+				83C30A52A19D89C9AE70F3B0 /* [CP] Check Pods Manifest.lock */,
+				ECB49030211199E500DF6541 /* Sources */,
+				ECB49031211199E500DF6541 /* Frameworks */,
+				ECB49032211199E500DF6541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB49036211199E500DF6541 /* PBXTargetDependency */,
+			);
+			name = YOUNADIUITests;
+			productName = YOUNADIUITests;
+			productReference = ECB49034211199E500DF6541 /* YOUNADIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB4900D211199E500DF6541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = extraction;
+				TargetAttributes = {
+					ECB49014211199E500DF6541 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ECB49028211199E500DF6541 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECB49014211199E500DF6541;
+					};
+					ECB49033211199E500DF6541 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECB49014211199E500DF6541;
+					};
+				};
+			};
+			buildConfigurationList = ECB49010211199E500DF6541 /* Build configuration list for PBXProject "YOUNADI" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB4900C211199E500DF6541;
+			productRefGroup = ECB49016211199E500DF6541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB49014211199E500DF6541 /* YOUNADI */,
+				ECB49028211199E500DF6541 /* YOUNADITests */,
+				ECB49033211199E500DF6541 /* YOUNADIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB49013211199E500DF6541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16528D2119B0AA008F07F0 /* g.mp4 in Resources */,
+				EC16528B2119B02B008F07F0 /* video.mp4 in Resources */,
+				ECB49023211199E500DF6541 /* LaunchScreen.storyboard in Resources */,
+				ECB49020211199E500DF6541 /* Assets.xcassets in Resources */,
+				ECB4901E211199E500DF6541 /* Main.storyboard in Resources */,
+				EC5263A62111AA810051ADD5 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB49027211199E500DF6541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB49032211199E500DF6541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A212AF5AB15480681C0A9ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YOUNADI/Pods-YOUNADI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YOUNADI/Pods-YOUNADI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72F3D065FD4C0E0A204D925B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YOUNADI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83C30A52A19D89C9AE70F3B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YOUNADIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9FBA3F9FB540184D4CF5123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YOUNADITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB49011211199E500DF6541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB4901B211199E500DF6541 /* ViewController.swift in Sources */,
+				ECB4904A21119D9D00DF6541 /* premierViewController.swift in Sources */,
+				ECB4904E2111A35000DF6541 /* SignInViewController.swift in Sources */,
+				EC5263A82111AF770051ADD5 /* Utils.swift in Sources */,
+				EC5263AF2111BA770051ADD5 /* User.swift in Sources */,
+				EC71F49F2113170C00FEA949 /* ConnectViewController.swift in Sources */,
+				EC71F49D2112F84000FEA949 /* Helper.swift in Sources */,
+				EC71F4A1211485F400FEA949 /* acceuilViewController.swift in Sources */,
+				ECB49019211199E500DF6541 /* AppDelegate.swift in Sources */,
+				ECB4904C21119F4E00DF6541 /* createUserViewController.swift in Sources */,
+				ECB4904721119A0E00DF6541 /* first.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB49025211199E500DF6541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB4902E211199E500DF6541 /* YOUNADITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB49030211199E500DF6541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB49039211199E500DF6541 /* YOUNADIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB4902B211199E500DF6541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB49014211199E500DF6541 /* YOUNADI */;
+			targetProxy = ECB4902A211199E500DF6541 /* PBXContainerItemProxy */;
+		};
+		ECB49036211199E500DF6541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB49014211199E500DF6541 /* YOUNADI */;
+			targetProxy = ECB49035211199E500DF6541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB4901C211199E500DF6541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB4901D211199E500DF6541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB49021211199E500DF6541 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB49022211199E500DF6541 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB4903B211199E500DF6541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB4903C211199E500DF6541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB4903E211199E500DF6541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E629A24A9B677E8D78DA537 /* Pods-YOUNADI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YOUNADI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3wa.YOUNADI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB4903F211199E500DF6541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5171666A8211B2913E54239F /* Pods-YOUNADI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YOUNADI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3wa.YOUNADI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECB49041211199E500DF6541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B9C006C727AB08D4896067 /* Pods-YOUNADITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YOUNADITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3wa.YOUNADITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOUNADI.app/YOUNADI";
+			};
+			name = Debug;
+		};
+		ECB49042211199E500DF6541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235BDAFE165D69C9278AE8EA /* Pods-YOUNADITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YOUNADITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3wa.YOUNADITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOUNADI.app/YOUNADI";
+			};
+			name = Release;
+		};
+		ECB49044211199E500DF6541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1A92C0D0053B7BD2CD1397 /* Pods-YOUNADIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YOUNADIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3wa.YOUNADIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YOUNADI;
+			};
+			name = Debug;
+		};
+		ECB49045211199E500DF6541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8583785D0AEBD35CF517372D /* Pods-YOUNADIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YOUNADIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3wa.YOUNADIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YOUNADI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB49010211199E500DF6541 /* Build configuration list for PBXProject "YOUNADI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB4903B211199E500DF6541 /* Debug */,
+				ECB4903C211199E500DF6541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB4903D211199E500DF6541 /* Build configuration list for PBXNativeTarget "YOUNADI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB4903E211199E500DF6541 /* Debug */,
+				ECB4903F211199E500DF6541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB49040211199E500DF6541 /* Build configuration list for PBXNativeTarget "YOUNADITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB49041211199E500DF6541 /* Debug */,
+				ECB49042211199E500DF6541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB49043211199E500DF6541 /* Build configuration list for PBXNativeTarget "YOUNADIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB49044211199E500DF6541 /* Debug */,
+				ECB49045211199E500DF6541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB4900D211199E500DF6541 /* Project object */;
+}
